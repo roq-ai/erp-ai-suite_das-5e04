@@ -1,0 +1,2372 @@
+[
+  {
+    "security": [
+      {
+        "id": "3acc104f-7a51-4eed-a789-94dd9e9ac6a7",
+        "security_status": "Enabled",
+        "security_score": 90902,
+        "created_at": "2023-08-28T06:07:26.291Z",
+        "updated_at": "2023-08-27T16:12:51.354Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bff9ca0c-9e57-4519-9de9-6519ffe2b108",
+        "security_status": "Disabled",
+        "security_score": 3612,
+        "created_at": "2023-08-27T14:46:16.966Z",
+        "updated_at": "2023-08-28T00:53:23.570Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "829841be-fcf2-43d6-9ada-c9de5e1f5ace",
+        "security_status": "Pending",
+        "security_score": 39266,
+        "created_at": "2023-08-27T19:01:00.811Z",
+        "updated_at": "2023-08-28T08:41:40.820Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "405cd0b8-74b4-4361-a1a6-e3c4fa1e5051",
+        "security_status": "Active",
+        "security_score": 13253,
+        "created_at": "2023-08-27T19:36:38.096Z",
+        "updated_at": "2023-08-28T03:32:15.517Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "702c4271-5f98-4fe1-a8ed-331b78663a07",
+        "security_status": "Inactive",
+        "security_score": 26454,
+        "created_at": "2023-08-27T19:21:58.108Z",
+        "updated_at": "2023-08-27T18:55:50.759Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "c83b1329-2e76-4e5f-9c8a-f309764d11a1",
+        "landscape_status": "Stable",
+        "landscape_score": 76899,
+        "created_at": "2023-08-27T22:16:32.274Z",
+        "updated_at": "2023-08-27T16:39:25.993Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8950f619-80f2-431d-aa92-f2754687362d",
+        "landscape_status": "Evolving",
+        "landscape_score": 11090,
+        "created_at": "2023-08-28T00:20:09.134Z",
+        "updated_at": "2023-08-28T00:12:43.259Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a4e30fd-9a0e-4501-8db0-f4c88eca9b5d",
+        "landscape_status": "Transforming",
+        "landscape_score": 90499,
+        "created_at": "2023-08-28T09:19:11.120Z",
+        "updated_at": "2023-08-28T09:43:21.646Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcaf2d40-f58f-4219-9be1-7233702bec66",
+        "landscape_status": "Dynamic",
+        "landscape_score": 57805,
+        "created_at": "2023-08-28T06:08:17.334Z",
+        "updated_at": "2023-08-27T12:17:50.553Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41c50731-5d0a-4bc5-b3db-b4e21b6a83bc",
+        "landscape_status": "Adapting",
+        "landscape_score": 73628,
+        "created_at": "2023-08-28T08:48:12.996Z",
+        "updated_at": "2023-08-28T08:00:03.180Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "f8b196a6-f4b6-4323-a536-025e35413fbf",
+        "privacy_status": "Compliant",
+        "privacy_score": 43804,
+        "created_at": "2023-08-28T05:50:56.984Z",
+        "updated_at": "2023-08-28T01:59:22.235Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23a1c58b-aafb-4e96-8c4a-cf77a3ddf629",
+        "privacy_status": "Non-compliant",
+        "privacy_score": 13002,
+        "created_at": "2023-08-28T09:14:27.407Z",
+        "updated_at": "2023-08-27T15:17:07.982Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec103378-e081-4548-9679-b4e33ca20de7",
+        "privacy_status": "Under review",
+        "privacy_score": 1210,
+        "created_at": "2023-08-28T07:16:22.446Z",
+        "updated_at": "2023-08-27T14:45:31.361Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5921323-fbc3-4d89-8e3c-7a291a6a4c99",
+        "privacy_status": "Approved",
+        "privacy_score": 91508,
+        "created_at": "2023-08-27T14:50:44.475Z",
+        "updated_at": "2023-08-27T13:43:56.219Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0a6c3dc-39bd-4c8f-8732-89be7590464a",
+        "privacy_status": "Rejected",
+        "privacy_score": 76877,
+        "created_at": "2023-08-27T16:30:32.629Z",
+        "updated_at": "2023-08-27T11:53:43.630Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "0787ffd2-9879-4f78-823c-46fda430aff5",
+        "config_status": "Configured",
+        "config_score": 31627,
+        "created_at": "2023-08-27T14:56:36.774Z",
+        "updated_at": "2023-08-28T01:23:06.602Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e2566fa-3269-4c6e-ba56-ec91f6231fbc",
+        "config_status": "Not configured",
+        "config_score": 43719,
+        "created_at": "2023-08-27T10:18:40.846Z",
+        "updated_at": "2023-08-28T08:21:57.945Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bf420d5-f9aa-4a93-a926-2dbdcdbaeb15",
+        "config_status": "In progress",
+        "config_score": 97105,
+        "created_at": "2023-08-28T07:37:45.527Z",
+        "updated_at": "2023-08-27T10:34:54.909Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ce00dd9-7a8e-4890-a893-8f0e79765426",
+        "config_status": "Completed",
+        "config_score": 44262,
+        "created_at": "2023-08-27T19:44:45.696Z",
+        "updated_at": "2023-08-27T16:07:58.047Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdfb7416-430c-47d8-a54a-2e66b85cade2",
+        "config_status": "Failed",
+        "config_score": 9204,
+        "created_at": "2023-08-27T22:38:29.082Z",
+        "updated_at": "2023-08-28T09:37:05.997Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "de400e44-9097-47e9-b256-f4ec98f11a16",
+        "email": "Clark99@gmail.com",
+        "firstName": "Braxton",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "409f05f0-a926-4f99-84a7-e4dae4992a17",
+        "email": "Simone61@hotmail.com",
+        "firstName": "Adell",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54766172",
+        "tenantId": null
+      },
+      {
+        "reference": "70631302-8481-4a33-9f13-9c1419a5cb38",
+        "email": "Noble59@yahoo.com",
+        "firstName": "Keely",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89708207",
+        "tenantId": null
+      },
+      {
+        "reference": "58e6c702-e734-4833-b1dc-3bc8777f96f7",
+        "email": "Santa93@hotmail.com",
+        "firstName": "Gilda",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27516644",
+        "tenantId": null
+      },
+      {
+        "reference": "892a3e21-bdd1-4927-a596-ad65224ed0e4",
+        "email": "Tommie_Langosh20@hotmail.com",
+        "firstName": "Ted",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "1fce045e-0af1-4b22-9512-dfc75171b553",
+        "security_status": "Secure",
+        "security_score": 66271,
+        "created_at": "2023-08-28T01:01:16.098Z",
+        "updated_at": "2023-08-27T11:33:01.361Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2a0a607-d4c1-4279-b675-e7fe0c8ee805",
+        "security_status": "Protected",
+        "security_score": 84427,
+        "created_at": "2023-08-27T15:09:41.396Z",
+        "updated_at": "2023-08-27T22:51:03.190Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23b73f2e-6126-47c1-8ff7-daef69b85c01",
+        "security_status": "Safe",
+        "security_score": 35832,
+        "created_at": "2023-08-27T18:43:47.727Z",
+        "updated_at": "2023-08-28T05:08:02.009Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bee8af1-9ce1-4836-a2d3-1998177b1400",
+        "security_status": "Confidential",
+        "security_score": 93327,
+        "created_at": "2023-08-28T09:51:43.420Z",
+        "updated_at": "2023-08-27T18:38:29.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "491cec6e-8a70-433b-934d-1486af99a389",
+        "security_status": "Fortified",
+        "security_score": 85047,
+        "created_at": "2023-08-28T05:50:36.957Z",
+        "updated_at": "2023-08-27T18:52:56.545Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "ba267dcc-df56-40a5-b745-70ca5db6a820",
+        "landscape_status": "Beautiful",
+        "landscape_score": 3314,
+        "created_at": "2023-08-28T02:47:41.650Z",
+        "updated_at": "2023-08-28T06:26:29.197Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fe05f52-5c62-4dfc-8a9e-59a8120808c4",
+        "landscape_status": "Serene",
+        "landscape_score": 76547,
+        "created_at": "2023-08-28T00:01:26.154Z",
+        "updated_at": "2023-08-27T17:48:28.931Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f20d80ce-f9d4-4f9c-afcf-eb2baa347df1",
+        "landscape_status": "Picturesque",
+        "landscape_score": 9560,
+        "created_at": "2023-08-28T02:12:09.298Z",
+        "updated_at": "2023-08-27T23:45:24.962Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cae057a9-1c4a-4c72-822b-e0b1eacb30b8",
+        "landscape_status": "Breathtaking",
+        "landscape_score": 46474,
+        "created_at": "2023-08-27T13:22:05.210Z",
+        "updated_at": "2023-08-28T09:17:38.864Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce96d51d-7a93-41b7-9f1b-f72e3a512ee9",
+        "landscape_status": "Scenic",
+        "landscape_score": 63672,
+        "created_at": "2023-08-27T23:11:54.927Z",
+        "updated_at": "2023-08-27T16:54:58.517Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "c8c5cb76-48a9-4544-82bc-ff715c9ecf73",
+        "privacy_status": "Private",
+        "privacy_score": 63367,
+        "created_at": "2023-08-28T03:35:30.528Z",
+        "updated_at": "2023-08-28T09:26:00.122Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ae84df5-061b-49be-ab52-81bd1678a40d",
+        "privacy_status": "Restricted",
+        "privacy_score": 90533,
+        "created_at": "2023-08-27T14:31:56.880Z",
+        "updated_at": "2023-08-27T21:33:33.794Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95b3d582-8fed-48a2-b512-5b803b162826",
+        "privacy_status": "Confidential",
+        "privacy_score": 73038,
+        "created_at": "2023-08-27T20:09:58.340Z",
+        "updated_at": "2023-08-28T06:39:54.223Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e867ed18-c762-4012-9b98-f480e577b142",
+        "privacy_status": "Encrypted",
+        "privacy_score": 50630,
+        "created_at": "2023-08-27T11:20:10.119Z",
+        "updated_at": "2023-08-27T12:47:46.498Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03204341-d475-4556-ab6e-b8278b961679",
+        "privacy_status": "Shielded",
+        "privacy_score": 65068,
+        "created_at": "2023-08-27T21:12:53.407Z",
+        "updated_at": "2023-08-28T07:21:00.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "f133c24d-da2d-4c46-be63-2dc1f9de173f",
+        "config_status": "Optimized",
+        "config_score": 63624,
+        "created_at": "2023-08-28T06:30:39.584Z",
+        "updated_at": "2023-08-27T11:24:18.432Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87169826-acfa-478c-b897-758d2f409718",
+        "config_status": "Customized",
+        "config_score": 96763,
+        "created_at": "2023-08-27T15:39:54.055Z",
+        "updated_at": "2023-08-27T23:54:24.748Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e8f1022-590d-447d-81bd-0ddfc488d449",
+        "config_status": "Efficient",
+        "config_score": 77587,
+        "created_at": "2023-08-27T21:55:32.347Z",
+        "updated_at": "2023-08-27T20:18:26.412Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37b1433b-d08f-4ff2-8f91-6bfc73bf69e4",
+        "config_status": "Flexible",
+        "config_score": 31177,
+        "created_at": "2023-08-27T15:09:36.725Z",
+        "updated_at": "2023-08-27T14:23:28.423Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cb3839b-0fb5-435b-abf1-bf5a162c3641",
+        "config_status": "Streamlined",
+        "config_score": 64097,
+        "created_at": "2023-08-28T07:03:33.509Z",
+        "updated_at": "2023-08-27T13:43:01.486Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a403a06d-0a4c-4070-8b77-360f2fdce266",
+        "email": "Kaylee.Hilpert-Champlin@hotmail.com",
+        "firstName": "Roberto",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd331ccc-5542-4ae4-b2c1-215522cbc36a",
+        "email": "Fabian.Sawayn-Green85@hotmail.com",
+        "firstName": "Rickey",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72f844cc-0e89-4c80-bf64-9d187eeeba57",
+        "email": "Bernice_Torp@yahoo.com",
+        "firstName": "Theron",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae55f09c-c272-4fc0-a04c-f130843ab2ea",
+        "email": "Destini23@yahoo.com",
+        "firstName": "Alana",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/46.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3fa31ceb-8911-4aa5-8093-7de5f004efa0",
+        "email": "Kamron69@yahoo.com",
+        "firstName": "Flavio",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "7951ff68-9f9a-428f-a89e-dc31e92b1072",
+        "security_status": "Enabled",
+        "security_score": 90353,
+        "created_at": "2023-08-28T01:48:17.965Z",
+        "updated_at": "2023-08-27T20:24:04.288Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d167a3a-4853-4404-9adb-142ddfbd38f5",
+        "security_status": "Disabled",
+        "security_score": 39889,
+        "created_at": "2023-08-28T09:01:52.092Z",
+        "updated_at": "2023-08-28T06:11:30.700Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d31b8df9-b5c3-4eee-ae13-be94bc567ee3",
+        "security_status": "Pending",
+        "security_score": 74855,
+        "created_at": "2023-08-27T22:40:21.228Z",
+        "updated_at": "2023-08-28T04:18:54.431Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcb99220-c173-46b9-810c-6db4e295daa9",
+        "security_status": "Active",
+        "security_score": 62451,
+        "created_at": "2023-08-28T00:29:53.007Z",
+        "updated_at": "2023-08-27T14:11:54.959Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36be5a60-311b-4984-b519-979a3081d782",
+        "security_status": "Inactive",
+        "security_score": 46557,
+        "created_at": "2023-08-27T09:58:05.422Z",
+        "updated_at": "2023-08-27T16:13:28.776Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "538fdb42-af0f-4a38-aba9-bb4d84b516d1",
+        "landscape_status": "Stable",
+        "landscape_score": 74385,
+        "created_at": "2023-08-27T10:54:35.728Z",
+        "updated_at": "2023-08-27T21:55:19.519Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc5775a8-0f2f-43b4-88d4-7875a41a9a2f",
+        "landscape_status": "Evolving",
+        "landscape_score": 23692,
+        "created_at": "2023-08-27T21:28:37.913Z",
+        "updated_at": "2023-08-27T17:06:20.039Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e84e3e3b-fe32-4016-a5e7-d8ca41f34393",
+        "landscape_status": "Transforming",
+        "landscape_score": 79143,
+        "created_at": "2023-08-27T10:20:18.277Z",
+        "updated_at": "2023-08-27T23:28:06.813Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c28ccd30-dec4-493e-98d8-6959685f60ca",
+        "landscape_status": "Dynamic",
+        "landscape_score": 70864,
+        "created_at": "2023-08-27T13:41:10.178Z",
+        "updated_at": "2023-08-27T16:13:06.940Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42079892-1534-474e-bc93-d5268c1a491a",
+        "landscape_status": "Adaptable",
+        "landscape_score": 29461,
+        "created_at": "2023-08-27T13:02:45.121Z",
+        "updated_at": "2023-08-27T23:19:25.647Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "7961560e-45d0-4c64-afc1-5382d00ae92b",
+        "privacy_status": "Compliant",
+        "privacy_score": 8158,
+        "created_at": "2023-08-28T06:55:54.469Z",
+        "updated_at": "2023-08-27T22:37:39.798Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30cb3815-4134-488e-9851-bfecbfd9b676",
+        "privacy_status": "Non-compliant",
+        "privacy_score": 85885,
+        "created_at": "2023-08-28T02:05:46.728Z",
+        "updated_at": "2023-08-28T07:00:55.395Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3431a1e9-afa7-47c4-a9e7-9406f9794254",
+        "privacy_status": "Under review",
+        "privacy_score": 22965,
+        "created_at": "2023-08-28T04:01:28.874Z",
+        "updated_at": "2023-08-27T15:33:59.329Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d82a18f-73bf-4d75-adc7-6ad8d634acdd",
+        "privacy_status": "Approved",
+        "privacy_score": 51204,
+        "created_at": "2023-08-27T12:14:35.669Z",
+        "updated_at": "2023-08-28T01:08:42.513Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f1c6db0-4b8d-4958-9595-aec5f2256204",
+        "privacy_status": "Rejected",
+        "privacy_score": 22094,
+        "created_at": "2023-08-28T09:37:24.954Z",
+        "updated_at": "2023-08-28T00:25:57.262Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "3ea2b726-1270-4428-b24f-267c75564004",
+        "config_status": "Complete",
+        "config_score": 9119,
+        "created_at": "2023-08-27T21:40:23.304Z",
+        "updated_at": "2023-08-28T08:19:04.436Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f01923c3-c0cf-497b-8180-3695921ec57e",
+        "config_status": "Incomplete",
+        "config_score": 62882,
+        "created_at": "2023-08-28T02:37:38.673Z",
+        "updated_at": "2023-08-27T17:26:50.299Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "201a1ec0-5779-4f1f-98ad-7005237d640d",
+        "config_status": "In progress",
+        "config_score": 58498,
+        "created_at": "2023-08-27T17:57:34.470Z",
+        "updated_at": "2023-08-27T19:37:49.123Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "560e0cb3-3efa-462a-a835-39b34a1dc00f",
+        "config_status": "Ready",
+        "config_score": 98836,
+        "created_at": "2023-08-27T13:54:51.657Z",
+        "updated_at": "2023-08-28T09:37:51.362Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "512363ce-ddc0-4b9d-8a0b-14e00927fae8",
+        "config_status": "Pending",
+        "config_score": 77191,
+        "created_at": "2023-08-27T11:29:51.928Z",
+        "updated_at": "2023-08-28T00:22:59.913Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bfdc809d-ce8f-4667-ae5b-986a23ac6096",
+        "email": "Elaina_Doyle94@yahoo.com",
+        "firstName": "Kacie",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39551296",
+        "tenantId": null
+      },
+      {
+        "reference": "15f0cb33-bb5b-489f-b7bd-d3c596b30ebb",
+        "email": "Devonte.Corkery@hotmail.com",
+        "firstName": "Oleta",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39380540",
+        "tenantId": null
+      },
+      {
+        "reference": "c2c9789e-b7e1-4700-9a7a-6da1120f7e38",
+        "email": "Eloy_Ferry6@gmail.com",
+        "firstName": "Jensen",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68988897",
+        "tenantId": null
+      },
+      {
+        "reference": "26329194-7bec-4eeb-bc89-53ef4f1c780b",
+        "email": "Maurice_Abbott@yahoo.com",
+        "firstName": "Simeon",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14727623",
+        "tenantId": null
+      },
+      {
+        "reference": "fb0dc55b-65fb-418f-912f-a343c7546ec6",
+        "email": "Charity31@gmail.com",
+        "firstName": "Jerry",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95235874",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "ee16bf1c-1ea5-46ba-b4a2-a29186c04d0d",
+        "security_status": "Active",
+        "security_score": 56294,
+        "created_at": "2023-08-27T20:34:00.954Z",
+        "updated_at": "2023-08-27T14:05:39.904Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1700ca50-95df-42f9-9688-b709c3fa9767",
+        "security_status": "Inactive",
+        "security_score": 19041,
+        "created_at": "2023-08-27T14:41:33.001Z",
+        "updated_at": "2023-08-28T00:54:17.737Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76005b61-9716-4832-9fb4-44ad29f3a937",
+        "security_status": "Pending",
+        "security_score": 57557,
+        "created_at": "2023-08-28T05:55:48.399Z",
+        "updated_at": "2023-08-28T08:20:49.785Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0708dc51-d3f2-4eec-839c-b89db8276144",
+        "security_status": "Blocked",
+        "security_score": 90525,
+        "created_at": "2023-08-27T23:00:38.480Z",
+        "updated_at": "2023-08-28T01:08:44.363Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc0a155a-1986-47bd-aaf8-b7e485727fa2",
+        "security_status": "Verified",
+        "security_score": 39142,
+        "created_at": "2023-08-27T15:15:04.039Z",
+        "updated_at": "2023-08-28T04:06:33.707Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "1eba372b-b79f-4395-8613-fe5da0c54b4b",
+        "landscape_status": "Enabled",
+        "landscape_score": 55754,
+        "created_at": "2023-08-27T19:49:33.457Z",
+        "updated_at": "2023-08-27T12:32:06.722Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a89bb91a-1481-4527-8b70-47b86092570b",
+        "landscape_status": "Disabled",
+        "landscape_score": 77775,
+        "created_at": "2023-08-27T11:00:17.174Z",
+        "updated_at": "2023-08-27T13:08:31.845Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a5c309c-83d6-4781-aecb-43a504e9b6fc",
+        "landscape_status": "Under Maintenance",
+        "landscape_score": 60641,
+        "created_at": "2023-08-27T16:04:48.212Z",
+        "updated_at": "2023-08-27T12:38:40.002Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9467c26-18eb-4d13-af36-9fc0c0dc86bc",
+        "landscape_status": "Restricted",
+        "landscape_score": 72438,
+        "created_at": "2023-08-28T01:21:50.469Z",
+        "updated_at": "2023-08-28T09:52:43.771Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2510940c-fd65-44a9-b482-dc19662695a5",
+        "landscape_status": "Optimized",
+        "landscape_score": 6867,
+        "created_at": "2023-08-27T14:20:21.214Z",
+        "updated_at": "2023-08-28T07:40:09.364Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "db926bce-34c1-4c44-81a0-64ca6b244cb9",
+        "privacy_status": "Public",
+        "privacy_score": 25699,
+        "created_at": "2023-08-28T06:49:16.113Z",
+        "updated_at": "2023-08-27T12:06:16.513Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd8f5999-5f5b-4779-9a1f-7564cc627f60",
+        "privacy_status": "Private",
+        "privacy_score": 26592,
+        "created_at": "2023-08-27T22:20:36.621Z",
+        "updated_at": "2023-08-28T08:42:27.879Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c2316c-148b-49f2-996e-73efd73322f2",
+        "privacy_status": "Restricted",
+        "privacy_score": 11254,
+        "created_at": "2023-08-28T04:12:57.744Z",
+        "updated_at": "2023-08-27T13:59:56.211Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b66d251-7847-4c33-9cb9-0a63b9d44f75",
+        "privacy_status": "Confidential",
+        "privacy_score": 97634,
+        "created_at": "2023-08-27T12:24:51.661Z",
+        "updated_at": "2023-08-28T08:26:38.811Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbef5736-1e6b-4648-8a7a-3d9f54a1a53d",
+        "privacy_status": "Limited",
+        "privacy_score": 45941,
+        "created_at": "2023-08-27T20:48:12.337Z",
+        "updated_at": "2023-08-27T13:39:20.487Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "084fd2fe-88f3-49ab-a070-a74bd50d911c",
+        "config_status": "Complete",
+        "config_score": 93987,
+        "created_at": "2023-08-27T20:22:06.656Z",
+        "updated_at": "2023-08-27T21:19:20.990Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba7c5a94-ab01-4074-aa48-d42c4280f930",
+        "config_status": "Incomplete",
+        "config_score": 71710,
+        "created_at": "2023-08-28T05:51:55.014Z",
+        "updated_at": "2023-08-27T16:19:50.073Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4838e57d-73b3-4dbb-b832-cf306479b351",
+        "config_status": "Pending",
+        "config_score": 31071,
+        "created_at": "2023-08-28T09:01:00.256Z",
+        "updated_at": "2023-08-28T05:18:49.788Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af501745-7699-45cd-b14f-45583851d6b2",
+        "config_status": "Approved",
+        "config_score": 34739,
+        "created_at": "2023-08-27T21:36:08.444Z",
+        "updated_at": "2023-08-27T20:35:41.485Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8947cbeb-ba6e-4dce-a429-80007cf6fefc",
+        "config_status": "Rejected",
+        "config_score": 49816,
+        "created_at": "2023-08-27T19:45:56.050Z",
+        "updated_at": "2023-08-28T06:45:41.960Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cc921d23-e380-48ce-be53-37169b61e67d",
+        "email": "Maverick_White-Bogan20@yahoo.com",
+        "firstName": "Marlee",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55490173",
+        "tenantId": null
+      },
+      {
+        "reference": "4af95e11-80a8-4159-80c6-732f77430814",
+        "email": "Frederik_Haag38@hotmail.com",
+        "firstName": "Lew",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ed44932-392c-436f-b527-d07e6be59d50",
+        "email": "Lesly3@yahoo.com",
+        "firstName": "Burdette",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/17.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b061a891-8651-4fae-8d9a-2e73dbb6ac7d",
+        "email": "Thea69@yahoo.com",
+        "firstName": "Reagan",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78962523",
+        "tenantId": null
+      },
+      {
+        "reference": "12d16334-13cd-4ac3-8ada-88338ff986a4",
+        "email": "Lillian.Pagac@hotmail.com",
+        "firstName": "Janessa",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12263997",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "c3fa3394-5465-4163-8a7d-491b5efe7ba6",
+        "security_status": "Enabled",
+        "security_score": 55345,
+        "created_at": "2023-08-27T15:19:54.668Z",
+        "updated_at": "2023-08-27T19:44:47.725Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b19f4a2-2879-4895-ba29-bc8a1ad01aa2",
+        "security_status": "Disabled",
+        "security_score": 28903,
+        "created_at": "2023-08-28T07:55:12.700Z",
+        "updated_at": "2023-08-28T01:51:07.300Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "002f1e8e-28b2-46fe-b5b8-0af840934600",
+        "security_status": "Active",
+        "security_score": 10177,
+        "created_at": "2023-08-27T12:56:55.499Z",
+        "updated_at": "2023-08-27T10:53:34.263Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "787e8bf5-a38a-43ad-8840-3d8238014161",
+        "security_status": "Inactive",
+        "security_score": 60064,
+        "created_at": "2023-08-28T07:43:34.051Z",
+        "updated_at": "2023-08-27T16:34:52.961Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3303e5fd-1c0a-4550-8ad0-4ffe54a37826",
+        "security_status": "Secure",
+        "security_score": 9209,
+        "created_at": "2023-08-27T20:52:37.866Z",
+        "updated_at": "2023-08-28T01:50:03.181Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "468684f5-077a-466c-9d77-e9999b1d2c40",
+        "landscape_status": "Healthy",
+        "landscape_score": 69746,
+        "created_at": "2023-08-27T17:14:42.154Z",
+        "updated_at": "2023-08-28T07:54:31.736Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e6621f8-88fd-4267-848f-ced407c269e0",
+        "landscape_status": "Unstable",
+        "landscape_score": 89586,
+        "created_at": "2023-08-27T19:28:50.255Z",
+        "updated_at": "2023-08-27T20:39:05.663Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc535cb7-00dd-4078-9a6e-c7ed7470ed5b",
+        "landscape_status": "Optimized",
+        "landscape_score": 27283,
+        "created_at": "2023-08-28T08:53:00.105Z",
+        "updated_at": "2023-08-28T02:08:50.480Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8340042-aa1b-455b-b4de-055cb845fc33",
+        "landscape_status": "Degraded",
+        "landscape_score": 33029,
+        "created_at": "2023-08-27T20:01:15.599Z",
+        "updated_at": "2023-08-27T11:33:44.607Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c01173d-1899-4299-ad5a-a6fde25a236a",
+        "landscape_status": "Robust",
+        "landscape_score": 10188,
+        "created_at": "2023-08-28T09:44:11.456Z",
+        "updated_at": "2023-08-27T23:01:26.658Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "65621b16-a7fe-401e-9587-6cc19e51cecf",
+        "privacy_status": "Compliant",
+        "privacy_score": 79124,
+        "created_at": "2023-08-28T08:51:53.345Z",
+        "updated_at": "2023-08-27T21:10:16.306Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22fe76fe-fb19-47d4-b81b-327833ce3059",
+        "privacy_status": "Non-compliant",
+        "privacy_score": 9290,
+        "created_at": "2023-08-28T06:46:55.426Z",
+        "updated_at": "2023-08-27T18:53:52.008Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dad19f4-1b6f-4a17-bf49-210f65986df1",
+        "privacy_status": "Protected",
+        "privacy_score": 34450,
+        "created_at": "2023-08-28T07:46:23.717Z",
+        "updated_at": "2023-08-27T20:06:57.600Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "446ca9b4-88a8-4ee6-bd4c-bf6a26e86a8a",
+        "privacy_status": "Exposed",
+        "privacy_score": 53418,
+        "created_at": "2023-08-27T11:56:37.703Z",
+        "updated_at": "2023-08-28T01:55:57.774Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bbece2c-8467-4615-879f-a663cfd622c7",
+        "privacy_status": "Secure",
+        "privacy_score": 56684,
+        "created_at": "2023-08-27T22:51:28.089Z",
+        "updated_at": "2023-08-27T12:17:25.233Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "8062dec3-999a-473c-ac50-a2785ef62831",
+        "config_status": "Complete",
+        "config_score": 59287,
+        "created_at": "2023-08-27T20:44:38.352Z",
+        "updated_at": "2023-08-27T10:15:56.565Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ef9c298-a77e-43ba-82f9-c606bb6a2295",
+        "config_status": "Incomplete",
+        "config_score": 80262,
+        "created_at": "2023-08-28T08:11:27.176Z",
+        "updated_at": "2023-08-28T09:20:48.324Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a9356e0-7936-4b49-964d-5324cec61344",
+        "config_status": "Active",
+        "config_score": 48829,
+        "created_at": "2023-08-27T20:43:57.428Z",
+        "updated_at": "2023-08-27T15:11:32.227Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92c03fde-9f62-4d3c-ae58-8af0a34a7297",
+        "config_status": "Inactive",
+        "config_score": 19160,
+        "created_at": "2023-08-27T16:41:47.145Z",
+        "updated_at": "2023-08-28T03:12:04.239Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecd04546-6147-409b-93b2-5bf6ca6ea10e",
+        "config_status": "Stable",
+        "config_score": 66256,
+        "created_at": "2023-08-27T22:44:36.322Z",
+        "updated_at": "2023-08-27T22:53:57.082Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "54c50b05-dc9b-4990-a7eb-7cd5d0ac0c8f",
+        "email": "Natalie.Bechtelar9@yahoo.com",
+        "firstName": "Destiny",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02a84917-3f5d-452a-aafd-59a9e81d6613",
+        "email": "Tod_OReilly88@gmail.com",
+        "firstName": "Alanna",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23901313",
+        "tenantId": null
+      },
+      {
+        "reference": "25a77303-8dc7-4732-bdf4-4aea8d5c4f40",
+        "email": "Kip18@gmail.com",
+        "firstName": "Kale",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/371.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "360a46c8-c96b-4b32-b0c1-ac981ed39ff1",
+        "email": "Rico23@yahoo.com",
+        "firstName": "Kamryn",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61783749",
+        "tenantId": null
+      },
+      {
+        "reference": "3d0eb462-558b-4d34-b9f4-900b05e69f03",
+        "email": "Golden_Schuster23@yahoo.com",
+        "firstName": "German",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54004815",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "3a2f69e6-1cf5-41af-9485-3058418d65ad",
+        "security_status": "Enabled",
+        "security_score": 84599,
+        "created_at": "2023-08-27T14:19:49.509Z",
+        "updated_at": "2023-08-27T10:56:37.617Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62b20466-2913-41b5-a792-9dbfe3e0ad8e",
+        "security_status": "Disabled",
+        "security_score": 23012,
+        "created_at": "2023-08-28T02:38:01.048Z",
+        "updated_at": "2023-08-27T23:31:40.305Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41d46ad1-3612-413a-8a40-805969e71fd9",
+        "security_status": "Active",
+        "security_score": 99065,
+        "created_at": "2023-08-27T11:01:21.379Z",
+        "updated_at": "2023-08-27T21:58:15.823Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e071d729-0d33-4922-962a-2a757ad54d72",
+        "security_status": "Inactive",
+        "security_score": 38735,
+        "created_at": "2023-08-27T10:27:09.305Z",
+        "updated_at": "2023-08-27T16:15:10.247Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06dcdb56-aadb-4a5e-81b2-e38a39bf0553",
+        "security_status": "Secure",
+        "security_score": 28143,
+        "created_at": "2023-08-28T01:01:01.021Z",
+        "updated_at": "2023-08-27T11:57:15.346Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "7c936eb1-121e-4fee-bb41-9be11712547e",
+        "landscape_status": "Green",
+        "landscape_score": 10386,
+        "created_at": "2023-08-28T08:15:25.554Z",
+        "updated_at": "2023-08-28T06:06:49.574Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46dcee5d-62ab-4a17-b60f-7541444e34e7",
+        "landscape_status": "Flourishing",
+        "landscape_score": 93421,
+        "created_at": "2023-08-27T17:28:57.098Z",
+        "updated_at": "2023-08-28T08:03:43.031Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee1b08a2-2a34-4ac9-889e-6fd8a47e3b12",
+        "landscape_status": "Blossoming",
+        "landscape_score": 66532,
+        "created_at": "2023-08-27T17:52:48.195Z",
+        "updated_at": "2023-08-27T17:15:50.297Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ace9ec3d-0abc-41a2-a017-4aa97748aed7",
+        "landscape_status": "Thriving",
+        "landscape_score": 67338,
+        "created_at": "2023-08-28T08:12:25.562Z",
+        "updated_at": "2023-08-27T12:04:09.548Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81f6be94-3550-477d-913a-10c9b6f576af",
+        "landscape_status": "Vibrant",
+        "landscape_score": 88724,
+        "created_at": "2023-08-27T20:25:51.239Z",
+        "updated_at": "2023-08-27T12:18:30.400Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "617bae88-c1fd-4c5b-a9f6-fe677bce2bfe",
+        "privacy_status": "Protected",
+        "privacy_score": 34645,
+        "created_at": "2023-08-27T14:40:53.694Z",
+        "updated_at": "2023-08-27T11:11:23.669Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86e0d8c9-a017-4acd-82c2-4b1086a2fbef",
+        "privacy_status": "Confidential",
+        "privacy_score": 66046,
+        "created_at": "2023-08-28T01:39:09.033Z",
+        "updated_at": "2023-08-28T05:52:52.496Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77dd2e1a-9aad-4710-9006-b2ab50d93c0e",
+        "privacy_status": "Private",
+        "privacy_score": 51379,
+        "created_at": "2023-08-28T01:05:01.977Z",
+        "updated_at": "2023-08-27T12:55:23.471Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "541bf352-9bd3-4c23-b007-dda256a9a1ba",
+        "privacy_status": "Secure",
+        "privacy_score": 36678,
+        "created_at": "2023-08-27T12:27:23.579Z",
+        "updated_at": "2023-08-27T20:37:07.745Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "554c7ddf-3852-49b6-874a-e4f3e9264d9d",
+        "privacy_status": "Restricted",
+        "privacy_score": 66191,
+        "created_at": "2023-08-27T18:22:44.199Z",
+        "updated_at": "2023-08-28T09:06:01.581Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "33543e64-b5c4-4a73-b723-c2eb830db6b0",
+        "config_status": "Optimized",
+        "config_score": 12206,
+        "created_at": "2023-08-27T21:09:56.439Z",
+        "updated_at": "2023-08-27T13:29:22.358Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0121cc7-4347-4067-bafc-ea5be8bf5f55",
+        "config_status": "Customized",
+        "config_score": 79786,
+        "created_at": "2023-08-27T21:29:43.240Z",
+        "updated_at": "2023-08-27T21:27:48.465Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5669ba6-ef27-4ed7-b17b-d106b3d9d510",
+        "config_status": "Standardized",
+        "config_score": 89049,
+        "created_at": "2023-08-27T13:17:30.607Z",
+        "updated_at": "2023-08-28T08:05:54.596Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25f9cee1-430b-40c8-9ea0-f0a64c7a3665",
+        "config_status": "Adaptive",
+        "config_score": 23603,
+        "created_at": "2023-08-27T10:51:51.087Z",
+        "updated_at": "2023-08-27T10:59:55.348Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd7ccf67-c954-448d-ab0a-748a13e70597",
+        "config_status": "Efficient",
+        "config_score": 75036,
+        "created_at": "2023-08-28T04:02:28.429Z",
+        "updated_at": "2023-08-28T09:09:49.602Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8f3c41f-cc0a-4bb6-9c19-f425fd00a0a4",
+        "email": "Cordell93@hotmail.com",
+        "firstName": "Harrison",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44946487",
+        "tenantId": null
+      },
+      {
+        "reference": "f019987d-4f23-4740-972c-45cdf0dd2030",
+        "email": "Andrew13@gmail.com",
+        "firstName": "Silas",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67259222",
+        "tenantId": null
+      },
+      {
+        "reference": "3e67ee4e-e2be-4a71-8a69-c01ec403eb50",
+        "email": "Zaria_Boyer@gmail.com",
+        "firstName": "Faye",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48573337",
+        "tenantId": null
+      },
+      {
+        "reference": "9b1e20c8-7cb3-4d5d-b532-990eb8aa8b9d",
+        "email": "Marlin20@hotmail.com",
+        "firstName": "Esmeralda",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/631.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f85f098-860c-4d09-979f-f5f430c136b9",
+        "email": "Ella_Thiel89@yahoo.com",
+        "firstName": "Ryley",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "cdbe3afa-d28f-450c-ab16-af9ed3e21156",
+        "security_status": "Enabled",
+        "security_score": 82619,
+        "created_at": "2023-08-27T14:36:26.398Z",
+        "updated_at": "2023-08-27T12:33:13.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaa7d2dd-d6a1-4785-bec7-78b226638fe4",
+        "security_status": "Disabled",
+        "security_score": 24873,
+        "created_at": "2023-08-28T06:18:34.871Z",
+        "updated_at": "2023-08-27T19:53:45.469Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0742f1d0-0da5-49d4-b6c0-16eccdaf5787",
+        "security_status": "Pending",
+        "security_score": 47344,
+        "created_at": "2023-08-27T23:10:33.888Z",
+        "updated_at": "2023-08-28T08:42:02.559Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82623ea8-a55c-496c-a440-433946916c2f",
+        "security_status": "Active",
+        "security_score": 54730,
+        "created_at": "2023-08-28T04:55:44.079Z",
+        "updated_at": "2023-08-27T10:34:26.229Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "697b3478-3302-4a4f-aa09-79f75ef74f2f",
+        "security_status": "Inactive",
+        "security_score": 34073,
+        "created_at": "2023-08-28T09:32:27.300Z",
+        "updated_at": "2023-08-28T05:34:24.222Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "626243f2-d5dc-47dc-ac10-7b5e4ee9560f",
+        "landscape_status": "Green",
+        "landscape_score": 7399,
+        "created_at": "2023-08-27T19:51:06.350Z",
+        "updated_at": "2023-08-27T20:39:00.656Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8ba1e87-a363-4551-a50f-2af7574f7956",
+        "landscape_status": "Blue",
+        "landscape_score": 95398,
+        "created_at": "2023-08-27T17:00:14.548Z",
+        "updated_at": "2023-08-28T06:51:56.203Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0cff5df-f3fd-46f0-b719-9dfd879ca13b",
+        "landscape_status": "Yellow",
+        "landscape_score": 5137,
+        "created_at": "2023-08-28T04:43:50.199Z",
+        "updated_at": "2023-08-28T00:24:55.165Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a40b0957-8271-42b2-972d-a7edc23996e0",
+        "landscape_status": "Red",
+        "landscape_score": 14402,
+        "created_at": "2023-08-28T08:50:16.930Z",
+        "updated_at": "2023-08-28T01:21:21.320Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a5be1ce-d3d3-4cd9-a2e6-9579446d10e7",
+        "landscape_status": "Purple",
+        "landscape_score": 88320,
+        "created_at": "2023-08-27T16:15:02.340Z",
+        "updated_at": "2023-08-27T23:59:47.978Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "9f7961cc-16fa-450a-b7bb-5f07e2831274",
+        "privacy_status": "Private",
+        "privacy_score": 22890,
+        "created_at": "2023-08-27T10:18:40.201Z",
+        "updated_at": "2023-08-28T07:27:36.586Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f958f5e-03b7-47a4-80fb-12135e211f2d",
+        "privacy_status": "Public",
+        "privacy_score": 52946,
+        "created_at": "2023-08-27T23:35:49.175Z",
+        "updated_at": "2023-08-28T06:50:02.788Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7a32647-eb72-4a13-b975-1ba0d0183a96",
+        "privacy_status": "Restricted",
+        "privacy_score": 14467,
+        "created_at": "2023-08-28T05:22:21.726Z",
+        "updated_at": "2023-08-28T00:49:12.365Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35683b8a-e70e-47a3-8507-650e5d945ba9",
+        "privacy_status": "Confidential",
+        "privacy_score": 28384,
+        "created_at": "2023-08-27T23:24:41.701Z",
+        "updated_at": "2023-08-28T04:46:59.159Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64411992-7fd0-42c1-b58f-06a82a10d130",
+        "privacy_status": "Limited",
+        "privacy_score": 57319,
+        "created_at": "2023-08-28T00:16:55.286Z",
+        "updated_at": "2023-08-28T00:52:14.673Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "5fa66c1b-f12f-400a-a7b2-fa2680051d4b",
+        "config_status": "Configured",
+        "config_score": 72777,
+        "created_at": "2023-08-27T15:00:22.112Z",
+        "updated_at": "2023-08-28T09:11:53.910Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6bd04a2-dfc9-4885-a17f-2adcf2288e74",
+        "config_status": "Not Configured",
+        "config_score": 36059,
+        "created_at": "2023-08-28T08:30:15.631Z",
+        "updated_at": "2023-08-27T22:51:19.244Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38c79a6-21ea-479d-a715-17cfd7f9cc5a",
+        "config_status": "In Progress",
+        "config_score": 28762,
+        "created_at": "2023-08-27T11:34:13.907Z",
+        "updated_at": "2023-08-27T21:39:39.239Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02f18abf-b43c-48ef-b573-9983b65f4fb0",
+        "config_status": "Completed",
+        "config_score": 17072,
+        "created_at": "2023-08-27T11:20:01.712Z",
+        "updated_at": "2023-08-27T21:51:28.375Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4453b321-a5f9-4569-ab38-d129078986c9",
+        "config_status": "Pending",
+        "config_score": 83987,
+        "created_at": "2023-08-27T10:23:49.492Z",
+        "updated_at": "2023-08-27T11:56:10.474Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af344e50-4612-4279-ba7e-7fdc5b5af380",
+        "email": "Carroll.Morar@gmail.com",
+        "firstName": "Casper",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d01fe26d-ec95-4d96-be30-6c76c7735f11",
+        "email": "Sabrina_Kling@gmail.com",
+        "firstName": "Gail",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14189897",
+        "tenantId": null
+      },
+      {
+        "reference": "ab8fa3ae-6ef3-401f-836a-8cd531ad40a6",
+        "email": "Felicia.Tillman42@gmail.com",
+        "firstName": "Vella",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99793625",
+        "tenantId": null
+      },
+      {
+        "reference": "76d61d47-eef4-4a99-960c-e3471d1aa413",
+        "email": "Brown42@hotmail.com",
+        "firstName": "Shaniya",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/147.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "55a8017f-035e-4015-91d1-080b75b00253",
+        "email": "Ibrahim.Wiegand9@yahoo.com",
+        "firstName": "William",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "14ad8b6e-c2ff-4659-9bba-dff2fcedbb55",
+        "security_status": "Enabled",
+        "security_score": 39909,
+        "created_at": "2023-08-27T12:04:12.858Z",
+        "updated_at": "2023-08-27T10:54:04.691Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04709cdb-e00c-46b6-929f-c614d26d6bb2",
+        "security_status": "Disabled",
+        "security_score": 16000,
+        "created_at": "2023-08-28T00:35:36.296Z",
+        "updated_at": "2023-08-27T15:08:58.249Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3384c4a-4d07-40dc-bb76-8442cbe4fc1e",
+        "security_status": "Active",
+        "security_score": 80372,
+        "created_at": "2023-08-28T07:54:06.143Z",
+        "updated_at": "2023-08-27T21:33:16.815Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3bf72a4-9029-43bd-b0d0-c2ac3f36cc66",
+        "security_status": "Inactive",
+        "security_score": 64278,
+        "created_at": "2023-08-28T08:24:39.775Z",
+        "updated_at": "2023-08-28T04:31:14.639Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34115bb1-103a-4a9e-8998-c47e048d8a8f",
+        "security_status": "Locked",
+        "security_score": 20325,
+        "created_at": "2023-08-27T23:11:19.132Z",
+        "updated_at": "2023-08-28T00:29:51.829Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "1ba143d1-deeb-46fa-b5a5-6a1f9b66c1bf",
+        "landscape_status": "Green",
+        "landscape_score": 62322,
+        "created_at": "2023-08-28T06:32:19.470Z",
+        "updated_at": "2023-08-27T14:55:37.028Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51c77e66-18d4-4142-8c4f-0d349314e29a",
+        "landscape_status": "Flourishing",
+        "landscape_score": 81949,
+        "created_at": "2023-08-28T03:16:38.352Z",
+        "updated_at": "2023-08-27T14:57:50.989Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f3f22f-b40f-4521-b681-813cc8284d3f",
+        "landscape_status": "Vibrant",
+        "landscape_score": 16051,
+        "created_at": "2023-08-27T12:39:38.857Z",
+        "updated_at": "2023-08-27T16:18:31.911Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa6407d9-1fe2-46df-8493-c9e185c87e77",
+        "landscape_status": "Serene",
+        "landscape_score": 48025,
+        "created_at": "2023-08-27T22:12:42.298Z",
+        "updated_at": "2023-08-28T03:44:18.705Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89a1fe13-3169-4106-a150-2987372072e5",
+        "landscape_status": "Breathtaking",
+        "landscape_score": 36318,
+        "created_at": "2023-08-28T02:45:58.944Z",
+        "updated_at": "2023-08-28T09:06:34.062Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "57032b0d-7a89-4c60-9adc-5aff3b04fe48",
+        "privacy_status": "Protected",
+        "privacy_score": 81644,
+        "created_at": "2023-08-27T13:50:29.061Z",
+        "updated_at": "2023-08-28T07:06:37.886Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8ff4dc4-f8bd-42b8-ba6d-32d1ad9118c0",
+        "privacy_status": "Public",
+        "privacy_score": 37341,
+        "created_at": "2023-08-27T17:30:02.233Z",
+        "updated_at": "2023-08-27T12:28:53.502Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "214e4d51-e33e-4f5c-b107-544119a6b367",
+        "privacy_status": "Restricted",
+        "privacy_score": 66560,
+        "created_at": "2023-08-28T02:04:08.105Z",
+        "updated_at": "2023-08-27T19:17:38.500Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a204a06f-a803-4a3b-ad59-e03679496fde",
+        "privacy_status": "Confidential",
+        "privacy_score": 87959,
+        "created_at": "2023-08-28T07:50:12.848Z",
+        "updated_at": "2023-08-27T23:33:59.147Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c991d5d6-8a0a-4159-85b0-0be5c87f5e65",
+        "privacy_status": "Private",
+        "privacy_score": 24455,
+        "created_at": "2023-08-27T20:58:16.406Z",
+        "updated_at": "2023-08-27T22:52:41.753Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "a9793429-7934-4fc5-b2e9-2e062981c28d",
+        "config_status": "Complete",
+        "config_score": 87701,
+        "created_at": "2023-08-28T07:17:12.099Z",
+        "updated_at": "2023-08-27T16:23:17.610Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79a5b5d6-7e26-4812-bedd-2980b4152d4c",
+        "config_status": "Pending",
+        "config_score": 55678,
+        "created_at": "2023-08-28T06:11:25.104Z",
+        "updated_at": "2023-08-27T13:46:16.200Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e86909d2-c50b-42b2-b78d-0a69a1ca1c87",
+        "config_status": "In Progress",
+        "config_score": 58481,
+        "created_at": "2023-08-28T06:17:52.719Z",
+        "updated_at": "2023-08-28T06:16:46.769Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba7658b-960d-444a-b2ba-fc1d60c4ad4c",
+        "config_status": "Approved",
+        "config_score": 54495,
+        "created_at": "2023-08-27T20:14:03.900Z",
+        "updated_at": "2023-08-28T03:16:50.352Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "356ec451-66dd-47c7-9bda-f111e1cf1864",
+        "config_status": "Rejected",
+        "config_score": 30705,
+        "created_at": "2023-08-28T00:58:47.215Z",
+        "updated_at": "2023-08-28T05:43:14.318Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0f099e2f-f7dc-47ff-9792-9f4b3dfce254",
+        "email": "Turner.Klein24@gmail.com",
+        "firstName": "Laisha",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "110fc951-54b2-47fb-b3a5-abf550c433ed",
+        "email": "Zechariah.Aufderhar75@hotmail.com",
+        "firstName": "Brayan",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f44d3e19-da96-4c84-96f1-efc5224639fc",
+        "email": "Paxton58@hotmail.com",
+        "firstName": "Alycia",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45403650",
+        "tenantId": null
+      },
+      {
+        "reference": "efdd7399-ee9a-442e-a97a-1fd1ec61c619",
+        "email": "Chester_Bernier@gmail.com",
+        "firstName": "Estella",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74618640",
+        "tenantId": null
+      },
+      {
+        "reference": "699ad8f2-0433-4583-a9ef-246f847832d1",
+        "email": "Germaine.Collins@gmail.com",
+        "firstName": "Jasmin",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37731889",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "8bf07507-ac05-4aa1-b1b9-f5e05deb5167",
+        "security_status": "Enabled",
+        "security_score": 1681,
+        "created_at": "2023-08-28T03:51:14.967Z",
+        "updated_at": "2023-08-27T20:33:28.462Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cab97aa1-63de-4cf0-8f93-9e2228b96bf1",
+        "security_status": "Disabled",
+        "security_score": 93531,
+        "created_at": "2023-08-28T00:57:50.506Z",
+        "updated_at": "2023-08-28T08:54:51.292Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f303df51-e186-49e5-bd77-d29274ef8ff3",
+        "security_status": "Active",
+        "security_score": 61822,
+        "created_at": "2023-08-28T03:31:00.706Z",
+        "updated_at": "2023-08-28T05:52:41.217Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "897dec51-9418-4609-8478-3a344aef5dfa",
+        "security_status": "Inactive",
+        "security_score": 85532,
+        "created_at": "2023-08-28T08:18:19.298Z",
+        "updated_at": "2023-08-28T06:36:22.016Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3df3ef3-1a74-4860-a384-1a2b27193730",
+        "security_status": "Secure",
+        "security_score": 921,
+        "created_at": "2023-08-27T23:10:35.571Z",
+        "updated_at": "2023-08-28T04:05:46.124Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "f4ba3f25-3cea-45a4-86e5-3a321c3073bb",
+        "landscape_status": "Scenic",
+        "landscape_score": 1860,
+        "created_at": "2023-08-28T08:59:18.671Z",
+        "updated_at": "2023-08-27T18:18:33.308Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "307a1507-d21a-4077-b08d-db398a80d6a4",
+        "landscape_status": "Vibrant",
+        "landscape_score": 63746,
+        "created_at": "2023-08-27T23:51:33.645Z",
+        "updated_at": "2023-08-27T23:45:09.034Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e98d6fec-67c1-40e0-9eb5-9a71f4f5d7db",
+        "landscape_status": "Peaceful",
+        "landscape_score": 33640,
+        "created_at": "2023-08-28T08:54:45.663Z",
+        "updated_at": "2023-08-27T10:20:08.024Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d4a7f0-c08f-4757-8ed7-61f3fc4ca60c",
+        "landscape_status": "Breathtaking",
+        "landscape_score": 23296,
+        "created_at": "2023-08-27T19:50:36.420Z",
+        "updated_at": "2023-08-27T12:30:20.970Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c889bcec-9475-425a-9e99-5e1861117b5d",
+        "landscape_status": "Serene",
+        "landscape_score": 5786,
+        "created_at": "2023-08-27T13:43:24.284Z",
+        "updated_at": "2023-08-27T12:53:43.631Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "5092db1f-5b45-42cd-a7ec-98a0dcba9256",
+        "privacy_status": "Protected",
+        "privacy_score": 22045,
+        "created_at": "2023-08-27T16:12:59.565Z",
+        "updated_at": "2023-08-28T06:31:14.016Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846ea462-10e5-471b-90c8-a472d84a25a0",
+        "privacy_status": "Public",
+        "privacy_score": 68334,
+        "created_at": "2023-08-28T05:32:08.645Z",
+        "updated_at": "2023-08-27T11:46:25.305Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65cb9bd9-bb98-42c7-aef6-b4ba107b5cfd",
+        "privacy_status": "Restricted",
+        "privacy_score": 11277,
+        "created_at": "2023-08-27T21:55:20.557Z",
+        "updated_at": "2023-08-27T22:33:25.497Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fd597e6-3171-42f7-b99b-985d7aa69f04",
+        "privacy_status": "Confidential",
+        "privacy_score": 37567,
+        "created_at": "2023-08-27T22:49:43.293Z",
+        "updated_at": "2023-08-27T19:57:03.779Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d3ab5dc-e7ef-4fab-ad8a-6c151bf47452",
+        "privacy_status": "Private",
+        "privacy_score": 23344,
+        "created_at": "2023-08-28T00:34:23.344Z",
+        "updated_at": "2023-08-28T01:15:30.587Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "cef769f3-b25d-48aa-b97f-0a51a33044a2",
+        "config_status": "Optimized",
+        "config_score": 97480,
+        "created_at": "2023-08-27T18:49:57.213Z",
+        "updated_at": "2023-08-28T04:35:51.025Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "448e2ceb-8f69-451b-9e8f-88f1f8e9fd1f",
+        "config_status": "Customized",
+        "config_score": 18482,
+        "created_at": "2023-08-27T20:42:17.109Z",
+        "updated_at": "2023-08-27T17:46:40.507Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1570c4d-00ae-492e-9030-f021f3ca6106",
+        "config_status": "Default",
+        "config_score": 80690,
+        "created_at": "2023-08-28T09:28:56.047Z",
+        "updated_at": "2023-08-27T19:42:41.041Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a4bb523-3c38-40bd-b8bc-4456ca83a92b",
+        "config_status": "Advanced",
+        "config_score": 57737,
+        "created_at": "2023-08-27T13:43:35.019Z",
+        "updated_at": "2023-08-28T07:07:57.445Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cf86ae1-0969-48a2-a766-f7c0dd75b9a6",
+        "config_status": "Standard",
+        "config_score": 9703,
+        "created_at": "2023-08-27T19:10:37.362Z",
+        "updated_at": "2023-08-28T09:46:47.465Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "451d4c68-3777-4a30-8a70-1915c75ba025",
+        "email": "Eloise67@yahoo.com",
+        "firstName": "Oleta",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14996063",
+        "tenantId": null
+      },
+      {
+        "reference": "01ce36c0-df41-4585-98d9-6b4f9cd9d358",
+        "email": "Adrienne.Spencer-Yundt@yahoo.com",
+        "firstName": "Coby",
+        "lastName": "McKenzie-Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/894.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b59a4d08-8e52-4f49-8446-d998946b2ab4",
+        "email": "Mallory_Jaskolski@yahoo.com",
+        "firstName": "Keira",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18421048",
+        "tenantId": null
+      },
+      {
+        "reference": "a2cfa316-6225-45df-b147-2ff07f31bd72",
+        "email": "Sabryna93@yahoo.com",
+        "firstName": "Elsa",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/827.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb677936-8850-41ea-a6aa-5d74c8920bcf",
+        "email": "Athena66@yahoo.com",
+        "firstName": "Heloise",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30482749",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "security": [
+      {
+        "id": "e669e061-4768-460c-9afb-5c8006ea3bf9",
+        "security_status": "Enabled",
+        "security_score": 60807,
+        "created_at": "2023-08-27T15:45:28.273Z",
+        "updated_at": "2023-08-28T09:37:39.037Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0ff8525-76a9-40f8-98be-a78fe58a5038",
+        "security_status": "Disabled",
+        "security_score": 10379,
+        "created_at": "2023-08-27T13:52:26.510Z",
+        "updated_at": "2023-08-27T17:48:38.897Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a86f4851-c9eb-434b-bf3a-2e1a8cb6e255",
+        "security_status": "Active",
+        "security_score": 2355,
+        "created_at": "2023-08-28T01:28:36.289Z",
+        "updated_at": "2023-08-28T04:44:50.826Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f51cfa-19f1-44ff-8d5c-d032e27e34c7",
+        "security_status": "Inactive",
+        "security_score": 94739,
+        "created_at": "2023-08-28T00:37:33.762Z",
+        "updated_at": "2023-08-27T11:01:01.017Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6ec0a8a-f626-4514-84c9-0a815e3fdf75",
+        "security_status": "Secure",
+        "security_score": 12000,
+        "created_at": "2023-08-27T14:16:18.010Z",
+        "updated_at": "2023-08-27T17:21:57.266Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "landscape": [
+      {
+        "id": "b6ed398c-cb1b-4f33-9ae4-93903fa4da18",
+        "landscape_status": "Mountainous",
+        "landscape_score": 37072,
+        "created_at": "2023-08-27T13:54:16.421Z",
+        "updated_at": "2023-08-27T12:50:20.457Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e3fd2de-d32e-4d1e-a9b5-f90db350e6de",
+        "landscape_status": "Coastal",
+        "landscape_score": 48351,
+        "created_at": "2023-08-27T23:06:05.741Z",
+        "updated_at": "2023-08-28T03:11:23.670Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d4f30af-503f-469b-bace-dc9fbf874533",
+        "landscape_status": "Urban",
+        "landscape_score": 82215,
+        "created_at": "2023-08-28T07:29:57.001Z",
+        "updated_at": "2023-08-27T14:43:15.998Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "424f5f2d-314f-4dd9-a3fc-d363b3394175",
+        "landscape_status": "Rural",
+        "landscape_score": 68689,
+        "created_at": "2023-08-28T01:53:15.397Z",
+        "updated_at": "2023-08-27T10:27:54.316Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1df23d72-341d-4942-adbe-e7c9472b83c1",
+        "landscape_status": "Desert",
+        "landscape_score": 75773,
+        "created_at": "2023-08-28T05:19:30.949Z",
+        "updated_at": "2023-08-28T02:55:43.346Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "data_privacy": [
+      {
+        "id": "9b11f9ff-aba8-4ef3-b83e-51ec305ddd3c",
+        "privacy_status": "Protected",
+        "privacy_score": 70759,
+        "created_at": "2023-08-27T13:53:44.267Z",
+        "updated_at": "2023-08-27T14:45:56.986Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f3c1941-7907-4925-a20a-1c766cd00acb",
+        "privacy_status": "Public",
+        "privacy_score": 8128,
+        "created_at": "2023-08-27T11:59:02.533Z",
+        "updated_at": "2023-08-27T16:18:13.694Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb232eb1-d7f9-472d-9c60-8bbc08cdcb72",
+        "privacy_status": "Restricted",
+        "privacy_score": 13905,
+        "created_at": "2023-08-27T18:44:26.066Z",
+        "updated_at": "2023-08-27T19:45:11.285Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fd178af-5bb7-4422-877a-d72c8e371cdb",
+        "privacy_status": "Confidential",
+        "privacy_score": 40969,
+        "created_at": "2023-08-27T19:21:32.036Z",
+        "updated_at": "2023-08-27T13:39:03.312Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc2c5b99-f62f-460e-873b-2201b58caf72",
+        "privacy_status": "Private",
+        "privacy_score": 60407,
+        "created_at": "2023-08-27T11:26:23.711Z",
+        "updated_at": "2023-08-28T09:39:41.507Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "configuration": [
+      {
+        "id": "2e393af5-71a7-4938-a60a-c25762aa99c1",
+        "config_status": "Optimized",
+        "config_score": 66684,
+        "created_at": "2023-08-27T14:30:54.045Z",
+        "updated_at": "2023-08-28T05:17:41.893Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e81a605-c4a7-40e0-9450-2097beb1b205",
+        "config_status": "Default",
+        "config_score": 2058,
+        "created_at": "2023-08-28T04:47:59.661Z",
+        "updated_at": "2023-08-27T21:46:27.319Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da4aaf9f-733b-4b51-b263-7ce8f2158c18",
+        "config_status": "Customized",
+        "config_score": 57621,
+        "created_at": "2023-08-27T17:09:12.649Z",
+        "updated_at": "2023-08-27T17:46:03.196Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2462d99e-d8d5-43cc-90c8-e8038d5502d5",
+        "config_status": "Stable",
+        "config_score": 97997,
+        "created_at": "2023-08-27T16:28:30.128Z",
+        "updated_at": "2023-08-27T12:08:17.891Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1eb73948-245f-404c-877e-431bf0f27d71",
+        "config_status": "Advanced",
+        "config_score": 84076,
+        "created_at": "2023-08-27T13:38:27.527Z",
+        "updated_at": "2023-08-27T20:46:56.061Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c97dad29-9930-4e08-a1d7-51039fac532b",
+        "email": "Roosevelt.Runolfsson@hotmail.com",
+        "firstName": "Dorian",
+        "lastName": "O'Reilly-Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d64cdaac-0987-4634-80ac-69ea9f0a8ac7",
+        "email": "Amos_Carroll@hotmail.com",
+        "firstName": "Rosetta",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16044bbc-bebc-4879-a90c-22824c9a8a2f",
+        "email": "Norbert.Marks61@hotmail.com",
+        "firstName": "Edison",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98388058",
+        "tenantId": null
+      },
+      {
+        "reference": "1e2d0bbf-8aaf-419f-9475-05d38d4a3e7a",
+        "email": "Allison12@yahoo.com",
+        "firstName": "Rocky",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40274339",
+        "tenantId": null
+      },
+      {
+        "reference": "942fd31d-ba13-466d-8e03-74dbe2e03e49",
+        "email": "Tiffany95@gmail.com",
+        "firstName": "Florian",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/569.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
